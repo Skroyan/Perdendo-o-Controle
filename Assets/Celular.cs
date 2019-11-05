@@ -7,8 +7,8 @@ public class Celular : MonoBehaviour
 
     float timeCounter = 0;
 
-    private Camera mainCamera;
-    private Transform posCamera;
+    //private Camera mainCamera;
+    //private Transform posCamera;
 
 
     float velocidade;
@@ -19,12 +19,12 @@ public class Celular : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainCamera = Camera.main;
-        posCamera = mainCamera.GetComponent<Transform>();
+        //mainCamera = Camera.main;
+       // posCamera = mainCamera.GetComponent<Transform>();
         
-        velocidade = 5;
-        largura = 4;
-        altura = 7;
+        velocidade = 2;
+        largura = 5;
+        altura = 2;
     }
 
     // Update is called once per frame
@@ -32,10 +32,11 @@ public class Celular : MonoBehaviour
     {
         timeCounter += Time.deltaTime * velocidade;
 
-        float x = Mathf.Cos(timeCounter) * largura;
-        float y = Mathf.Sin(timeCounter) * altura;
-        float z = posCamera.position.z+50;
+        float x = Mathf.Cos(timeCounter);
+        float y = Mathf.Sin(timeCounter);
+    //    float z = posCamera.position.z-5;
 
-        transform.position = new Vector3(x, y, z);
+
+       // transform.position = new Vector2(x, y);
     }
 }

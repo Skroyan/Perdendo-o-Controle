@@ -5,6 +5,8 @@ using UnityEngine;
 public class Sons : MonoBehaviour
 {
     private AudioSource musica1;
+    private float timer = 1.14f;
+    private bool tocar = false;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +17,20 @@ public class Sons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(tocar)
+        {
+            playaudio();
+            tocar = false;
+        }
        
+        if(timer<0)
+        {
+            tocar = true;
+            timer = 1.14f;
+        }
+
+        timer -= Time.deltaTime;
+
     }
 
     private void playaudio()
