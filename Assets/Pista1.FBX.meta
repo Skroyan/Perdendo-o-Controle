@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ba94260a3dd11164d9f6277e4973f36b
+guid: 746af377045762f4c8dd52af0ca62c4b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -243,18 +243,19 @@ ModelImporter:
     400234: Plane001
     400236: post
     400238: Poste
-    2100000: No Name
+    2100000: 19 - Default
     2100002: 03 - Default
     2100004: 02 - Default
-    2100006: 14 - Default
-    2100008: 07 - Default
-    2100010: 08 - Default
-    2100012: 09 - Default
-    2100014: 13 - Default
-    2100016: wire_006135006
-    2100018: blck reflective
-    2100020: white bulb
-    2100022: glass clear
+    2100006: 15 - Default
+    2100008: 14 - Default
+    2100010: 07 - Default
+    2100012: 08 - Default
+    2100014: 09 - Default
+    2100016: 13 - Default
+    2100018: wire_006135006
+    2100020: blck reflective
+    2100022: white bulb
+    2100024: glass clear
     2300000: Box002
     2300002: Box003
     2300004: Box004
