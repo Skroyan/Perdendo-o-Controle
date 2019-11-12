@@ -9,7 +9,7 @@ public class CarController : MonoBehaviour
     public List<WheelCollider> throttleWheels;
     public List<GameObject> steeringWheels;
     public List<GameObject> meshes;
-    public float force = 20000f;
+    public float force = 4000f;
     public float turn = 20f;
     public Transform CM;
     public Rigidbody rb;

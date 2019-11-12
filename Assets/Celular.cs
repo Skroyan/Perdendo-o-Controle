@@ -37,6 +37,6 @@ public class Celular : MonoBehaviour
     //    float z = posCamera.position.z-5;
 
 
-       // transform.position = new Vector2(x, y);
+       transform.position = new Vector2(x, y);
     }
 }
