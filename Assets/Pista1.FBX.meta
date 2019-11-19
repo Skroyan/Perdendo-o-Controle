@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 746af377045762f4c8dd52af0ca62c4b
+guid: dfd84cd697103ff4bbb371a6e1217194
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -61,8 +61,8 @@ ModelImporter:
     100110: Line002
     100112: Line004
     100114: Line005
-    100116: Line011
-    100118: Loft002
+    100116: Loft002
+    100118: Loft004
     100120: Object001
     100122: Object002
     100124: Object003
@@ -181,8 +181,8 @@ ModelImporter:
     400110: Line002
     400112: Line004
     400114: Line005
-    400116: Line011
-    400118: Loft002
+    400116: Loft002
+    400118: Loft004
     400120: Object001
     400122: Object002
     400124: Object003
@@ -243,10 +243,10 @@ ModelImporter:
     400234: Plane001
     400236: post
     400238: Poste
-    2100000: 19 - Default
+    2100000: 15 - Default
     2100002: 03 - Default
     2100004: 02 - Default
-    2100006: 15 - Default
+    2100006: 19 - Default
     2100008: 14 - Default
     2100010: 07 - Default
     2100012: 08 - Default
@@ -315,64 +315,65 @@ ModelImporter:
     2300112: Line004
     2300114: Line005
     2300116: Loft002
-    2300118: Object001
-    2300120: Object002
-    2300122: Object003
-    2300124: Object004
-    2300126: Object005
-    2300128: Object006
-    2300130: Object007
-    2300132: Object008
-    2300134: Object009
-    2300136: Object010
-    2300138: Object011
-    2300140: Object012
-    2300142: Object013
-    2300144: Object014
-    2300146: Object015
-    2300148: Object016
-    2300150: Object017
-    2300152: Object018
-    2300154: Object019
-    2300156: Object020
-    2300158: Object021
-    2300160: Object022
-    2300162: Object023
-    2300164: Object024
-    2300166: Object025
-    2300168: Object026
-    2300170: Object027
-    2300172: Object028
-    2300174: Object029
-    2300176: Object030
-    2300178: Object031
-    2300180: Object032
-    2300182: Object033
-    2300184: Object034
-    2300186: Object035
-    2300188: Object036
-    2300190: Object037
-    2300192: Object038
-    2300194: Object039
-    2300196: Object040
-    2300198: Object041
-    2300200: Object042
-    2300202: Object043
-    2300204: Object044
-    2300206: Object045
-    2300208: Object046
-    2300210: Object047
-    2300212: Object048
-    2300214: Object049
-    2300216: Object050
-    2300218: Object051
-    2300220: Object052
-    2300222: Object053
-    2300224: Object054
-    2300226: Object055
-    2300228: Object056
-    2300230: Plane001
-    2300232: post
+    2300118: Loft004
+    2300120: Object001
+    2300122: Object002
+    2300124: Object003
+    2300126: Object004
+    2300128: Object005
+    2300130: Object006
+    2300132: Object007
+    2300134: Object008
+    2300136: Object009
+    2300138: Object010
+    2300140: Object011
+    2300142: Object012
+    2300144: Object013
+    2300146: Object014
+    2300148: Object015
+    2300150: Object016
+    2300152: Object017
+    2300154: Object018
+    2300156: Object019
+    2300158: Object020
+    2300160: Object021
+    2300162: Object022
+    2300164: Object023
+    2300166: Object024
+    2300168: Object025
+    2300170: Object026
+    2300172: Object027
+    2300174: Object028
+    2300176: Object029
+    2300178: Object030
+    2300180: Object031
+    2300182: Object032
+    2300184: Object033
+    2300186: Object034
+    2300188: Object035
+    2300190: Object036
+    2300192: Object037
+    2300194: Object038
+    2300196: Object039
+    2300198: Object040
+    2300200: Object041
+    2300202: Object042
+    2300204: Object043
+    2300206: Object044
+    2300208: Object045
+    2300210: Object046
+    2300212: Object047
+    2300214: Object048
+    2300216: Object049
+    2300218: Object050
+    2300220: Object051
+    2300222: Object052
+    2300224: Object053
+    2300226: Object054
+    2300228: Object055
+    2300230: Object056
+    2300232: Plane001
+    2300234: post
     3300000: Box002
     3300002: Box003
     3300004: Box004
@@ -432,64 +433,65 @@ ModelImporter:
     3300112: Line004
     3300114: Line005
     3300116: Loft002
-    3300118: Object001
-    3300120: Object002
-    3300122: Object003
-    3300124: Object004
-    3300126: Object005
-    3300128: Object006
-    3300130: Object007
-    3300132: Object008
-    3300134: Object009
-    3300136: Object010
-    3300138: Object011
-    3300140: Object012
-    3300142: Object013
-    3300144: Object014
-    3300146: Object015
-    3300148: Object016
-    3300150: Object017
-    3300152: Object018
-    3300154: Object019
-    3300156: Object020
-    3300158: Object021
-    3300160: Object022
-    3300162: Object023
-    3300164: Object024
-    3300166: Object025
-    3300168: Object026
-    3300170: Object027
-    3300172: Object028
-    3300174: Object029
-    3300176: Object030
-    3300178: Object031
-    3300180: Object032
-    3300182: Object033
-    3300184: Object034
-    3300186: Object035
-    3300188: Object036
-    3300190: Object037
-    3300192: Object038
-    3300194: Object039
-    3300196: Object040
-    3300198: Object041
-    3300200: Object042
-    3300202: Object043
-    3300204: Object044
-    3300206: Object045
-    3300208: Object046
-    3300210: Object047
-    3300212: Object048
-    3300214: Object049
-    3300216: Object050
-    3300218: Object051
-    3300220: Object052
-    3300222: Object053
-    3300224: Object054
-    3300226: Object055
-    3300228: Object056
-    3300230: Plane001
-    3300232: post
+    3300118: Loft004
+    3300120: Object001
+    3300122: Object002
+    3300124: Object003
+    3300126: Object004
+    3300128: Object005
+    3300130: Object006
+    3300132: Object007
+    3300134: Object008
+    3300136: Object009
+    3300138: Object010
+    3300140: Object011
+    3300142: Object012
+    3300144: Object013
+    3300146: Object014
+    3300148: Object015
+    3300150: Object016
+    3300152: Object017
+    3300154: Object018
+    3300156: Object019
+    3300158: Object020
+    3300160: Object021
+    3300162: Object022
+    3300164: Object023
+    3300166: Object024
+    3300168: Object025
+    3300170: Object026
+    3300172: Object027
+    3300174: Object028
+    3300176: Object029
+    3300178: Object030
+    3300180: Object031
+    3300182: Object032
+    3300184: Object033
+    3300186: Object034
+    3300188: Object035
+    3300190: Object036
+    3300192: Object037
+    3300194: Object038
+    3300196: Object039
+    3300198: Object040
+    3300200: Object041
+    3300202: Object042
+    3300204: Object043
+    3300206: Object044
+    3300208: Object045
+    3300210: Object046
+    3300212: Object047
+    3300214: Object048
+    3300216: Object049
+    3300218: Object050
+    3300220: Object051
+    3300222: Object052
+    3300224: Object053
+    3300226: Object054
+    3300228: Object055
+    3300230: Object056
+    3300232: Plane001
+    3300234: post
     4300000: Box002
     4300002: Box003
     4300004: Object001
@@ -607,6 +609,7 @@ ModelImporter:
     4300228: post
     4300230: bulb
     4300232: cage
+    4300234: Loft004
   externalObjects: {}
   materials:
     importMaterials: 1
