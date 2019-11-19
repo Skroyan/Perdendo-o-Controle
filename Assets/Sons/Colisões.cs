@@ -18,9 +18,10 @@ public class Colisões : MonoBehaviour
 
     }
 
-    void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Tocus")
+            if (other.gameObject.tag == "Tocus")
         {
             colisao.Play();
         }

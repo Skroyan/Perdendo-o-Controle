@@ -22,7 +22,7 @@ public class StefTrigger : MonoBehaviour
         {
             if (gameObj.transform.gameObject.CompareTag("Tocus"))
             {
-                float velocidade = 20f;
+                float velocidade = 15f;
                 GameObject.Find("Stefani").transform.Translate(+((velocidade) * Time.deltaTime), 0, 0);
             }
         }

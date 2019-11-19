@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class drunk : MonoBehaviour 
 {
@@ -25,7 +26,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 6 && tempo < 11)
         {
             i = 1;
-            if (tempo == 6)
+            if ((int)Math.Round(tempo) == 6)
             {
                 playgole();
             }
@@ -34,7 +35,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 11 && tempo < 16)
         {
             i = 2;
-            if (tempo == 11)
+            if ((int)Math.Round(tempo) == 11)
             {
                 playgole();
             }
@@ -43,7 +44,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 16 && tempo < 21)
         {
             i = 3;
-            if (tempo == 16)
+            if ((int)Math.Round(tempo) == 16)
             {
                 playgole();
             }
@@ -52,7 +53,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 21 && tempo < 26)
         {
             i = 4;
-            if (tempo == 21)
+            if ((int)Math.Round(tempo) == 21)
             {
                 playgole();
             }
@@ -61,7 +62,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 26 && tempo < 31)
         {
             i = 5;
-            if (tempo == 26)
+            if ((int)Math.Round(tempo) == 26)
             {
                 playgole();
             }
@@ -70,7 +71,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 31 && tempo < 36)
         {
             i = 6;
-            if (tempo == 31)
+            if ((int)Math.Round(tempo) == 31)
             {
                 playgole();
             }
@@ -79,7 +80,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 36 && tempo < 41)
         {
             i = 7;
-            if (tempo == 36)
+            if ((int)Math.Round(tempo) == 36)
             {
                 playgole();
             }
@@ -88,7 +89,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 41 && tempo < 46)
         {
             i = 8;
-            if (tempo == 41)
+            if ((int)Math.Round(tempo) == 41)
             {
                 playgole();
             }
@@ -97,7 +98,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 46 && tempo < 51)
         {
             i = 9;
-            if (tempo == 46)
+            if ((int)Math.Round(tempo) == 46)
             {
                 playgole();
             }
@@ -106,7 +107,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 51 && tempo < 56)
         {
             i = 10;
-            if (tempo == 51)
+            if ((int)Math.Round(tempo) == 51)
             {
                 playgole();
             }
@@ -115,7 +116,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 56 && tempo < 61)
         {
             i = 11;
-            if (tempo == 56)
+            if ((int)Math.Round(tempo) == 56)
             {
                 playgole();
             }
@@ -124,7 +125,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 61 && tempo < 66)
         {
             i = 12;
-            if (tempo == 61)
+            if ((int)Math.Round(tempo) == 61)
             {
                 playgole();
             }
@@ -133,7 +134,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 66 && tempo < 71)
         {
             i = 13;
-            if (tempo == 66)
+            if ((int)Math.Round(tempo) == 66)
             {
                 playgole();
             }
@@ -142,7 +143,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 71 && tempo < 76)
         {
             i = 14;
-            if (tempo == 71)
+            if ((int)Math.Round(tempo) == 71)
             {
                 playgole();
             }
@@ -151,7 +152,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 76 && tempo < 81)
         {
             i = 15;
-            if (tempo == 76)
+            if ((int)Math.Round(tempo) == 76)
             {
                 playgole();
             }
@@ -160,7 +161,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 81 && tempo < 86)
         {
             i = 16;
-            if (tempo == 81)
+            if ((int)Math.Round(tempo) == 81)
             {
                 playgole();
             }
@@ -169,7 +170,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 86 && tempo < 91)
         {
             i = 17;
-            if (tempo == 86)
+            if ((int)Math.Round(tempo) == 86)
             {
                 playgole();
             }
@@ -178,7 +179,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 91 && tempo < 96)
         {
             i = 18;
-            if (tempo == 91)
+            if ((int)Math.Round(tempo) == 91)
             {
                 playgole();
             }
@@ -187,7 +188,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 96 && tempo < 101)
         {
             i = 19;
-            if (tempo == 96)
+            if ((int)Math.Round(tempo) == 96)
             {
                 playgole();
             }
@@ -196,7 +197,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 101 && tempo < 106)
         {
             i = 20;
-            if (tempo == 101)
+            if ((int)Math.Round(tempo) == 101)
             {
                 playgole();
             }
@@ -205,7 +206,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 106 && tempo < 111)
         {
             i = 21;
-            if (tempo == 106)
+            if ((int)Math.Round(tempo) == 106)
             {
                 playgole();
             }
@@ -215,7 +216,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 111 && tempo < 116)
         {
             i = 22;
-            if (tempo == 111)
+            if ((int)Math.Round(tempo) == 111)
             {
                 playgole();
             }
@@ -224,7 +225,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 116 && tempo < 121)
         {
             i = 23;
-            if (tempo == 116)
+            if ((int)Math.Round(tempo) == 116)
             {
                 playgole();
             }
@@ -233,7 +234,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 121 && tempo < 126)
         {
             i = 24;
-            if (tempo == 121)
+            if ((int)Math.Round(tempo) == 121)
             {
                 playgole();
             }
@@ -242,7 +243,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 126 && tempo < 131)
         {
             i = 25;
-            if (tempo == 126)
+            if ((int)Math.Round(tempo) == 126)
             {
                 playgole();
             }
@@ -251,7 +252,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 131 && tempo < 136)
         {
             i = 26;
-            if (tempo == 131)
+            if ((int)Math.Round(tempo) == 131)
             {
                 playgole();
             }
@@ -260,7 +261,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 136 && tempo < 141)
         {
             i = 27;
-            if (tempo == 136)
+            if ((int)Math.Round(tempo) == 136)
             {
                 playgole();
             }
@@ -269,7 +270,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 141 && tempo < 146)
         {
             i = 28;
-            if (tempo == 141)
+            if ((int)Math.Round(tempo) == 141)
             {
                 playgole();
             }
@@ -278,7 +279,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 146 && tempo < 151)
         {
             i = 29;
-            if (tempo == 146)
+            if ((int)Math.Round(tempo) == 146)
             {
                 playgole();
             }
@@ -287,7 +288,7 @@ public class drunk : MonoBehaviour
         else if (tempo >= 151 && tempo < 156)
         {
             i = 30;
-            if (tempo == 151)
+            if ((int)Math.Round(tempo) == 151)
             {
                 playgole();
             }
