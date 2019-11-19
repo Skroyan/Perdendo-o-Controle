@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Colisões : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public AudioSource colisao;
+
     void Start()
     {
-        
+        colisao = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Tocus")
+        {
+            colisao.Play();
+        }
+    }
+
 }

@@ -3,7 +3,12 @@ guid: d31b6d314895a8f47b5310c78155ed11
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - garrafa1: {fileID: 21300000, guid: ab28512c8ea327a4485584046c3b426f, type: 3}
+  - garrafa2: {fileID: 21300000, guid: b36d10316cd0b9f41b83015e87198910, type: 3}
+  - garrafa3: {fileID: 21300000, guid: 2b78f55bd2e4e7244981252671238a2d, type: 3}
+  - garrafa4: {fileID: 21300000, guid: 635adc2db08543144874ad4bc9a85914, type: 3}
+  - garrafa5: {fileID: 21300000, guid: 02e5aa80aaa29204c9ca736becb05d07, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
