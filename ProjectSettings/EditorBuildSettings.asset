@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase2.unity
     guid: 82e6a337cc6dbe7488b9c004c393721c
+  - enabled: 1
+    path: "Assets/Scenes/Cr\xE9ditos.unity"
+    guid: 4baebb0cf5d929347837f9fbd93a0c2d
   m_configObjects: {}
