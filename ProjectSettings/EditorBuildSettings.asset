@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: "Assets/Scenes/Instru\xE7\xF5es.unity"
+    guid: d5743befc5114544b833a2cf090a31ae
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1ee5db51fdedb29498f3886ef85440f5
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: cc981d18ff97ea946a53246ae2523a9c
+  - enabled: 1
+    path: Assets/Scenes/Fase2.unity
+    guid: 82e6a337cc6dbe7488b9c004c393721c
   m_configObjects: {}
