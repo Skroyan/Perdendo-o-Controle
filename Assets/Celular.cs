@@ -5,38 +5,33 @@ using UnityEngine;
 public class Celular : MonoBehaviour
 {
 
-    float timeCounter = 0;
-
-    //private Camera mainCamera;
-    //private Transform posCamera;
-
-
-    float velocidade;
-    float largura;
-    float altura;
-  //  float profundidade = GameObject.Find("CameraController").GetComponent<Vector3>();
+    private float contagem = 5;//Random.Range(8, 12);
+    private bool cel = false;
+    private Vector3 mouse = Input.mousePosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        //mainCamera = Camera.main;
-       // posCamera = mainCamera.GetComponent<Transform>();
-        
-        velocidade = 2;
-        largura = 5;
-        altura = 2;
+        GameObject.Find("Celular").transform.localScale = new Vector3(0, 0, 0); //Deixa invisível na tela
     }
 
-    // Update is called once per frame
     void Update()
     {
-        timeCounter += Time.deltaTime * velocidade;
-
-        float x = Mathf.Cos(timeCounter);
-        float y = Mathf.Sin(timeCounter);
-    //    float z = posCamera.position.z-5;
+        contagem -= Time.deltaTime;
 
 
-       transform.position = new Vector2(x, y);
+        if (contagem <= 0.0f)
+        { //Faz surgir o celular na tela
+            GameObject.Find("Celular").transform.localScale = new Vector3(0.14f, 0.14f, 0);
+            cel = true;
+
+        }
+
+        if (cel = true && (mouse.x >=450 && mouse.x <= 916) && Input.GetButtonDown("Fire1")) {//Faz desaparecer o celular da tela
+            contagem = 50;
+            GameObject.Find("Celular").transform.localScale = new Vector3(0, 0, 0);;//Random.Range(8, 12);
+            cel = false;
+
+        }
     }
 }
