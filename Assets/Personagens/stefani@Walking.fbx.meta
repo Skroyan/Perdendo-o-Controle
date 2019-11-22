@@ -174,7 +174,157 @@ ModelImporter:
     13700008: Hair
     13700010: Shoes
     13700012: Tops
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bodymat
+    second: {fileID: 2100000, guid: 9023259278128ee42b08d3ce15408831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottommat
+    second: {fileID: 2100000, guid: 5fb198a992313e740a1a677ff2d18c65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hairmat
+    second: {fileID: 2100000, guid: 0f410ed69ee95e94398340967b9b8a5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoesmat
+    second: {fileID: 2100000, guid: 4e33f698983d5f2448bb1e00bffe884a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Topmat
+    second: {fileID: 2100000, guid: c33d7157e9d59bb459f4563cfcdd8a10, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Body_Diffuse
+    second: {fileID: 2800000, guid: e035b5ef6432b6c4da89438805db4041, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Body_Gloss
+    second: {fileID: 2800000, guid: ddf3935471cf4814c9009804bd6699ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Body_Normal
+    second: {fileID: 2800000, guid: 0f92010b538c03945857985aff6d3b2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Body_Opacity
+    second: {fileID: 2800000, guid: 501c8f236822b35468c74c80a31925ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Body_Specular
+    second: {fileID: 2800000, guid: 04f7888dd3f897d4f9eea0a53144f130, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Bottom_Diffuse
+    second: {fileID: 2800000, guid: b62ee0910efce744587b8bc728dd2757, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Bottom_Gloss
+    second: {fileID: 2800000, guid: 61416651d6e8dd14f97de8cf4d6689a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Bottom_Normal
+    second: {fileID: 2800000, guid: e5e3e0b35ab32e247a9b2b6ced570b20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Bottom_Opacity
+    second: {fileID: 2800000, guid: bf8e0bd0c3c88094aa7aece2ad577813, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Bottom_Specular
+    second: {fileID: 2800000, guid: 336e7431b24db8f4f8f8dfdc325cabc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Hair_Diffuse
+    second: {fileID: 2800000, guid: 02821688e8c7df745ac587932eb626a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Hair_Gloss
+    second: {fileID: 2800000, guid: 9334dd799554d85469bf1de7fea10212, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Hair_Normal
+    second: {fileID: 2800000, guid: 1a8a2bbdc0bf4ee49a128a3193947062, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Hair_Opacity
+    second: {fileID: 2800000, guid: e0ee4efa88104b04795a89a858971208, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Hair_Specular
+    second: {fileID: 2800000, guid: c527fdfa4d92c05458020e8a3baff492, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Shoes_Diffuse
+    second: {fileID: 2800000, guid: 438b733e7cbbaf642968d11f7aaa47f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Shoes_Gloss
+    second: {fileID: 2800000, guid: 21ea97c918ef79647a6f80880001be8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Shoes_Normal
+    second: {fileID: 2800000, guid: 1e8fae71ddfbedb40a0634470e5b77fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Shoes_Opacity
+    second: {fileID: 2800000, guid: 7a40143de0132e8499b0f02fbe0b1e5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Shoes_Specular
+    second: {fileID: 2800000, guid: 4bf8bfa2647cd5d45a0c63c4cc317202, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Top_Diffuse
+    second: {fileID: 2800000, guid: 084cc62dbc14e3540bb52cc193f85acf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Top_Gloss
+    second: {fileID: 2800000, guid: 70fb172eae7228d4d975ec8ce21fbfb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Top_Normal
+    second: {fileID: 2800000, guid: 15bebbdce8304f84db184305027d6d22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Top_Opacity
+    second: {fileID: 2800000, guid: db21003441448044cba01e8af6d03dc5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stefani_Top_Specular
+    second: {fileID: 2800000, guid: 9a5559bd905fc374f9810c5a63942960, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
