@@ -40,7 +40,8 @@ public class StefTrigger : MonoBehaviour
 
     private void OnTriggerStay()
     {
-        float velocidade = 20f;
-        GameObject.Find("Stefani").transform.Translate(+((velocidade) * Time.deltaTime), 0, 0);
+        print("Entrou");
+        float velocidade = 2f;
+        GameObject.Find("Stefani").transform.Translate(0, 0, +((velocidade) * Time.deltaTime));
     }
 }
