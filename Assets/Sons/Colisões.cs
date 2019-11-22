@@ -6,10 +6,11 @@ public class Colisões : MonoBehaviour
 {
 
     public AudioSource colisao;
+    //public AudioClip som;
 
     void Start()
     {
-        colisao = GetComponent<AudioSource>();
+        colisao = GameObject.Find("Tocus").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -18,11 +19,12 @@ public class Colisões : MonoBehaviour
 
     }
 
-
     private void OnTriggerEnter(Collider other)
     {
-            if (other.gameObject.tag == "Tocus")
+        print("colidiu");
+        if (other.gameObject.tag == "Tocus")
         {
+            //GameObject.Find("Tocus").GetComponent<AudioSource>().PlayOneShot(som);
             colisao.Play();
         }
     }

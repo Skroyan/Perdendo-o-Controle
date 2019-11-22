@@ -5,7 +5,8 @@ using System.Runtime.InteropServices;
 
 public class Celular : MonoBehaviour
 {
-
+    private AudioSource vibra;
+    private bool tocando = true;
     private float contagem = 12;
     private bool cel = false;
     RaycastHit hit;
@@ -25,6 +26,7 @@ private void Awake()
     void Start()
     {
         GameObject.Find("Celular").transform.localScale = new Vector3(0, 0, 0);//Deixa invisível na tela
+        vibra = this.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -35,6 +37,7 @@ private void Awake()
         if (contagem <= 0.0f && contagem >= -0.05f)
         { //Faz surgir o celular na tela
             cel = true;
+            tocando = true;
             GameObject.Find("Celular").transform.localScale = new Vector3(0.14f, 0.14f, 0);
             sorteio = Random.Range(0, 4);
 
@@ -64,6 +67,15 @@ private void Awake()
 
             SetCursorPos(xPos, yPos);
 
+
+        }
+
+        if (contagem <= 0.0f)
+        {
+            if (tocando == true && !vibra.isPlaying)
+            {
+                vibra.Play();
+            }
         }
 
             if (cel = true && Input.GetButtonDown("Fire1")) {//Faz desaparecer o celular da tela
@@ -74,6 +86,12 @@ private void Awake()
                     contagem = Random.Range(8f, 13f);
                     GameObject.Find("Celular").transform.localScale = new Vector3(0, 0, 0);
                     cel = false;
+
+                    if (vibra.isPlaying)
+                    {
+                        tocando = false;
+                        vibra.Stop();
+                    }
                 }
             }
 
