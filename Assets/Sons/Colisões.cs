@@ -7,11 +7,16 @@ public class Colisões : MonoBehaviour
 {
 
     public AudioSource colisao;
+    public AudioSource mulher;
+    public AudioSource cachorro;
+
     //public AudioClip som;
 
     void Start()
     {
         colisao = GameObject.Find("Tocus").GetComponent<AudioSource>();
+        mulher = GameObject.Find("GritoMulher").GetComponent<AudioSource>();
+        cachorro = GameObject.Find("GritoCachorro").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,8 +31,13 @@ public class Colisões : MonoBehaviour
         if (other.gameObject.tag == "Tocus")
         {
             //GameObject.Find("Tocus").GetComponent<AudioSource>().PlayOneShot(som);
-            colisao.Play();
-            //SceneManager.LoadScene("Fase2");
+
+            if (!colisao.isPlaying)
+            {
+                colisao.Play();
+            }
+
+            SceneManager.LoadScene("Notícias");
         }
     }
 
