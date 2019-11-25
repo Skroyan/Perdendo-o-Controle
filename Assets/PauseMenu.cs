@@ -7,6 +7,11 @@ public class PauseMenu : MonoBehaviour
     public static bool pause = false;
     public GameObject menu;
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     public void Resume()
     {
         menu.SetActive(false);
