@@ -27,7 +27,7 @@ public class Colisões : MonoBehaviour
         {
             //GameObject.Find("Tocus").GetComponent<AudioSource>().PlayOneShot(som);
             colisao.Play();
-            SceneManager.LoadScene("Fase2");
+            //SceneManager.LoadScene("Fase2");
         }
     }
 
