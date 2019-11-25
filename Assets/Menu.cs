@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    //private PauseMenu retornar;
+
+    private void Start()
+    {
+        //retornar = retornar.GetComponent<PauseMenu>();
+    }
     public void iniciar()
     {
         SceneManager.LoadScene("SampleScene");
@@ -22,6 +28,13 @@ public class Menu : MonoBehaviour
 
     public void voltarMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
+
+    //public void Resume()
+    //{
+    //    retornar.Resume();
+
+    //}
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Colisões : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class Colisões : MonoBehaviour
         {
             //GameObject.Find("Tocus").GetComponent<AudioSource>().PlayOneShot(som);
             colisao.Play();
+            //SceneManager.LoadScene("Fase2");
         }
     }
 
